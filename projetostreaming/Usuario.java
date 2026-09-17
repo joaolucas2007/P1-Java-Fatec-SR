@@ -11,6 +11,14 @@ public class Usuario {
     void assistir () {
         System.out.println("O usuário está assistindo.");
     }
+
+    //Criando uma sobrecarga conteudo para assistir
+    void assistir ( Conteudo conteudo) {
+        System.out.println("O usuário está assistindo." + conteudo.getTitulo());
+    }
+
+
+
     void exibirInformacoes() {
         System.out.println("Nome: " + nome);
         System.out.println("Email: " + email);
@@ -21,6 +29,8 @@ public class Usuario {
         this.email = email;
         this.plano = plano;
     }
+
+
     //Criando os metodos Getters e Setters
     public String getNome() {
         return nome;

@@ -15,12 +15,12 @@ public class TestaUsuario {
         Usuario usu1 = new Usuario("João Silva", "joao.silva@gmail.com", "Premium");
         Usuario usu2 = new Usuario("Maria Souza", "maria.souza@gmail.com", "Básico");
 
-        //Chamando os metodos da classe Usuario
+        /*//Chamando os metodos da classe Usuario
         usu1.assistir();   
         usu1.exibirInformacoes();
 
         usu2.assistir();
-        usu2.exibirInformacoes();
+        usu2.exibirInformacoes();*/ // Deixando comentado para focar nos metodos Getters e Setter
         
         //Testando o metodo getters trazendo os dados do usuario 1 e usuario 2
         System.out.println("Nome do usuário 1: " + usu1.getNome());
