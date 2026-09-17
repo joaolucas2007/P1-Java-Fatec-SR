@@ -14,7 +14,7 @@ public class Usuario {
 
     //Criando uma sobrecarga conteudo para assistir
     void assistir ( Conteudo conteudo) {
-        System.out.println("O usuário está assistindo." + conteudo.getTitulo());
+        System.out.println("O usuário está assistindo " + conteudo.getTitulo());
     }
 
 
