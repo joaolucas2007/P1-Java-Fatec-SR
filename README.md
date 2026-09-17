@@ -1,5 +1,4 @@
-# — Projeto Java
-
+## Projeto Java
 Projeto desenvolvido individualmente para a **P1 da disciplina de Desenvolvimento para Servidores I**, aplicando os conceitos de **Programação Orientada a Objetos (POO)** apresentados em aula.
 
 ## Aluno
@@ -12,6 +11,11 @@ Projeto desenvolvido individualmente para a **P1 da disciplina de Desenvolviment
 
 O projeto consiste na implementação de um sistema de livre escolha utilizando os principais conceitos de POO trabalhados durante as aulas.
 
+## Tema
+O tema do projeto será um ambiente de streaming, com classes como:
+* Usuários
+* Conteúdo
+* Filmes e Series extends
 ### Conceitos utilizados
 
 * Classes
