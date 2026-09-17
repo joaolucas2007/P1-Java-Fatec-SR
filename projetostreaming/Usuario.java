@@ -16,5 +16,10 @@ public class Usuario {
         System.out.println("Email: " + email);
         System.out.println("Plano: " + plano);
     }
+    public Usuario(String nome, String email, String plano) {
+        this.nome = nome;
+        this.email = email;
+        this.plano = plano;
+    }
 }
 
