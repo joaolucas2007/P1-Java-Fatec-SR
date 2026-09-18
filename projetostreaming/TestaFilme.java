@@ -13,6 +13,10 @@ public class TestaFilme {
 
         // Acessando o atributo próprio de Filme
         System.out.println("Duração: " + filme1.getDuracao() + " minutos");
+
+        // Testando a reescrita do método exibirInformacoes
+        filme1.exibirInformacoes();
+
     }
 }
 

@@ -10,5 +10,11 @@ public class TestaSerie {
         System.out.println("Classificação: " + serie1.getClassificacao());
         // Acessando o atributo próprio de Serie
         System.out.println("Número de temporadas: " + serie1.getNumeroDeTemporadas());
+
+
+    //Testando o metodo exibirInformacoes()
+    serie1.exibirInformacoes();
     }
+    
+   
 }

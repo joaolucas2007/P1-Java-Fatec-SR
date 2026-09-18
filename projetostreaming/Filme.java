@@ -6,9 +6,9 @@ public class Filme extends Conteudo {
     private int duracao; // tempo do filme em minutos
 
     //Criando o construtor da classe Filme que chama o construtor da classe Conteudo
-    public Filme(String titulo, int anoLncamento, String classificacao, int duracao) {
+    public Filme(String titulo, int anoLancamento, String classificacao, int duracao) {
 
-        super(titulo, anoLncamento, classificacao);
+        super(titulo, anoLancamento, classificacao);
 
         this.duracao = duracao;
     }
@@ -22,4 +22,11 @@ public class Filme extends Conteudo {
     public void setDuracao(int duracao) {
         this.duracao = duracao;
     }
+    @Override
+public void exibirInformacoes() {
+    System.out.println("Título: " + getTitulo());
+    System.out.println("Ano de lançamento: " + getAnoLancamento());
+    System.out.println("Classificação: " + getClassificacao());
+    System.out.println("Duração: " + duracao + " minutos");
+}
 }

@@ -17,4 +17,11 @@ public class Serie extends Conteudo {
     public void setNumeroDeTemporadas(int numeroDeTemporadas) {
         this.numeroDeTemporadas = numeroDeTemporadas;
     }
+@Override
+public void exibirInformacoes() {
+    System.out.println("Título: " + getTitulo());
+    System.out.println("Ano de lançamento: " + getAnoLancamento());
+    System.out.println("Classificação: " + getClassificacao());
+    System.out.println("O total de temporadas é " + getNumeroDeTemporadas());
+}
 }
