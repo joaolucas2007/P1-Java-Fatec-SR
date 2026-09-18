@@ -32,4 +32,11 @@ public class Conteudo {
     public void setClassificacao(String classificacao) {
         this.classificacao = classificacao;
     }
+
+    //Criando o metodo exibirInformacoes que exibe as informações do conteudo
+    public void exibirInformacoes() {
+        System.out.println("Título: " + titulo);
+        System.out.println("Ano de lançamento: " + anoLancamento);
+        System.out.println("Classificação: " + classificacao);
+    }
 }
