@@ -8,7 +8,6 @@ Projeto desenvolvido individualmente para a **P1 da disciplina de Desenvolviment
 **Fatec São Roque**
 
 ## Sobre o projeto
-
 O projeto consiste na implementação de um sistema de livre escolha utilizando os principais conceitos de POO trabalhados durante as aulas.
 
 ## Tema
@@ -16,8 +15,8 @@ O tema do projeto será um ambiente de streaming, com classes como:
 * Usuários
 * Conteúdo
 * Filmes e Series extends
-### Conceitos utilizados
 
+### Conceitos utilizados
 * Classes
 * Atributos
 * Visibilidade (`private`, `public`, `protected`)
@@ -35,7 +34,7 @@ O tema do projeto será um ambiente de streaming, com classes como:
 * Programação Orientada a Objetos
 * Git
 * GitHub
-
+* VScode
 
 ## Objetivo
 

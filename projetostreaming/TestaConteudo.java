@@ -2,11 +2,11 @@ package projetostreaming;
 
 public class TestaConteudo {
     public static void main (String[] args) {
-        //Criando os objetos a partir do construtor filmes
+        //Criando os objetos a partir do construtor de conteudo
         Conteudo filme1 = new Conteudo("Vingadores: Ultimato", 2019, "14 anos");
         Conteudo filme2 = new Conteudo("A Origem", 2010, "12 anos");
 
-        //Criando objetos a partir do construtor Series
+        //Criando objetos a partir do construtor de conteudo
 
         Conteudo serie1 = new Conteudo("Breaking Bad", 2008, "16 anos");
         Conteudo serie2 = new Conteudo("Game of Thrones", 2011, "18 anos");
